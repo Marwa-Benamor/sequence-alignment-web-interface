@@ -17,3 +17,13 @@ BioPython : Une bibliothèque Python spécialisée dans le traitement des séque
 Framework web : 
 
 Flask
+
+Captures d'écran: 
+
+![Capture d'écran de l'interface d'accueil](CAP1.jpg)
+
+![Capture d'écran de l'interface de résultat](CAP2.jpg)
+
+![Capture de code de index.html](CAP3.jpg)
+![Capture de code de index.html](CAP3SUITE.jpg)
+
