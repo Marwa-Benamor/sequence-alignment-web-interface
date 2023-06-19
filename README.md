@@ -25,5 +25,12 @@ Captures d'écran:
 ![Capture d'écran de l'interface de résultat](CAP2.jpg)
 
 ![Capture de code de index.html](CAP3.jpg)
-![Capture de code de index.html](CAP3SUITE.jpg)
+!(CAP3SUITE1.jpg)
+!(CAP3SUITE2.jpg)
 
+![Capture de code de result.html](CAP4.jpg)
+!(CAP4SUITE1.jpg)
+!(CAP4SUITE2.jpg)
+
+![Capture de code Alignement de séquences.py](CAP5.jpg)
+!(CAP5SUITE.jpg)
