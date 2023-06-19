@@ -14,4 +14,5 @@ Python : Utilisé comme langage de programmation principal pour implémenter la 
 BioPython : Une bibliothèque Python spécialisée dans le traitement des séquences biologiques. Elle est utilisée pour effectuer l'alignement des séquences.
 
 
-Framework web : Flask
+Framework web : 
+Flask
