@@ -20,17 +20,27 @@ Flask
 
 Captures d'écran: 
 
+Capture d'écran de l'interface d'accueil:
+
 ![Capture d'écran de l'interface d'accueil](CAP1.jpg)
 
+Capture d'écran de l'interface de résultat:
+
 ![Capture d'écran de l'interface de résultat](CAP2.jpg)
+
+Capture de code de "index.html":
 
 ![Capture de code de index.html](CAP3.jpg)
 ![Capture de code de index.html](CAP3SUITE1.jpg)
 ![Capture de code de index.html](CAP3SUITE2.jpg)
 
+Capture de code de "result.html":
+
 ![Capture de code de result.html](CAP4.jpg)
 ![Capture de code de result.html](CAP4SUITE1.jpg)
 ![Capture de code de result.html](CAP4SUITE2.jpg)
+
+Capture de code de "Alignement de séquences.py":
 
 ![Capture de code Alignement de séquences.py](CAP5.jpg)
 ![Capture de code Alignement de séquences.py](CAP5SUITE.jpg)
