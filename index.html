@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Alignement de séquences</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, sans-serif;
+      font-size: x-large;
+    }
+
+    h1 {
+      color: #032183;
+      text-align: center;
+      font-style: italic;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #eb0583;
+      text-decoration: underline;
+      font-size: larger;
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #032183;
+      border-radius: 8px;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      font-size: larger;
+    }
+
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      background-color: #55abfc;
+      color: #ffffff;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: larger;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #032183;
+    }
+  </style>
+</head>
+<body>
+    <h1>Alignement de séquences</h1>
+    <form method="POST">
+        <label for="sequence1">Séquence 1:</label><br>
+        <textarea name="sequence1" rows="4" cols="50"></textarea><br><br>
+        <label for="sequence2">Séquence 2:</label><br>
+        <textarea name="sequence2" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">RUN !</button>
+    </form>
+</body>
+</html>

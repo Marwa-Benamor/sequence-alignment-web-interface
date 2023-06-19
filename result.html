@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Résultat de l'alignement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: #0047ab;
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        pre {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow: auto;
+            white-space: pre-wrap;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .best-alignment,
+        .score {
+            color: #ff69b4;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 26px;
+        }
+
+        .target,
+        .query {
+            color: #333;
+            font-size: 24px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Résultat de l'alignement</h1>
+
+    {% if alignment %}
+        <p><span class="best-alignment">Meilleur alignement :</span></p>
+        <pre>{{ alignment }}</pre>
+        <p><span class="best-alignment">Score :</span> {{ score }}</p>
+    {% else %}
+        <p>Aucun alignement trouvé.</p>
+    {% endif %}
+
+    <br>
+    <a href="/">Retour à la page d'accueil</a><br>
+</body>
+</html>
